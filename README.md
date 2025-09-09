@@ -120,7 +120,7 @@ Este método automatiza la instalación de dependencias, ejecución de migracion
 
 - Crear una nueva migración:
   ```bash
-  npm run migration:create src/database/migrations/{Nombre de la migración}
+  npm run migration:create src/database/migrations/{Nombre_de_la_migración}
   ```
 - Ejecutar todas las migraciones:
   ```bash
