@@ -9,6 +9,7 @@ export const dbConfig: DataSourceOptions = {
   username: String(process.env.DATABASE_USER),
   password: String(process.env.DATABASE_PASSWORD),
   database: String(process.env.DATABASE_NAME),
+  entities: [__dirname + '/../modules/**/domain/entities/*.entity.{js,ts}'],
   migrations: [__dirname + '/../database/migrations/*.{js,ts}'],
   synchronize: false,
 };
